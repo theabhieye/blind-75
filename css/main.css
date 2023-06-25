@@ -1,0 +1,52 @@
+body {
+  min-height: 100vh;
+  background-color: #252422;
+  font-family: 'Roboto', 'Helvetica', Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Dosis', 'Helvetica', Arial, sans-serif;
+  font-weight: 600;
+  color: #444444;
+}
+
+.bg-gradient {
+  background-image: linear-gradient(140deg,
+      hsl(0deg 98% 81%) 0%,
+      hsl(3deg 99% 83%) 14%,
+      hsl(5deg 100% 85%) 29%,
+      hsl(9deg 99% 87%) 43%,
+      hsl(14deg 97% 89%) 57%,
+      hsl(21deg 91% 91%) 71%,
+      hsl(35deg 80% 93%) 86%,
+      hsl(66deg 71% 95%) 100%);
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+li.d-flex>i.fa.fa-check-circle {
+  padding-top: 3px;
+}
+
+.preview-image-small,
+.app-store-badge {
+  width: 100%;
+  max-width: 250px;
+}
+
+@media (max-width: 768px) {
+  ul {
+    font-size: 1.1em;
+  }
+}
+
+ul.list-unstyled li {
+  color: #444444;
+}
